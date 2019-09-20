@@ -1,0 +1,50 @@
+---
+layout: default
+title: "Research"
+description: "Research projects in the lab"
+group: navigation
+navorder: 1
+---
+{% include JB/setup %}
+
+<br>
+<br>
+
+Computational and experimental techniques to manipulate protein structure and function hold the potential to make transformative contributions in the most diverse scientific domains. Our laboratory develops and applies protein computational methodologies to design novel functional and therapeutic proteins. Assessment of the computational work is carried by the experimental arm of the laboratory where testing of our computationally generated hypothesis is performed.
+<div class="bigspacer"></div>
+
+{% for project in site.categories.projects %}
+<br>
+  <div class='row'>
+     <div class="col-md-12 paperbox" style = "background-color:lightgray;">
+       <div class="smallhead media-heading"><a href="{{ project.url }}" class="off"><span style="font-weight:bold;">{{ project.title }}</span></a></div>
+     </div>
+     <div class='row'>
+      <div class='col-md-8'>
+       <div class="media">
+        <a class="project-image" href="{{ project.url }}">
+          <img class="media-object"  style="max-width:70%;" src="{{ project.image }}">
+        </a>
+       </div>
+      </div>      
+      <div class='col-md-4'>
+        {{ project.content }}
+      </div>
+    </div>
+   </div> 
+<br>
+<hr style = {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}>
+<br>
+{% endfor %}
+
+
+
+<div class="bigspacer"></div>
