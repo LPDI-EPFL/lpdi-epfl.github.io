@@ -1,13 +1,12 @@
 ---
 layout: news
-title: "Lab set up"
+title: "SNSF grant"
 author: "Dr. Bruno Correia"
 author_handle: "bru-cor"
 image: /assets/images/news/default-news.png
 category: news
-tags: [publication]
 ---
-[Prof. Bruno Correia][1] joins EPFL and starts the LPDI lab
+Our laboratory hasbeen awarded an SNSF grant to support our research in vaccine design. 
 
-[1]: /team/bruno-correia
+
 
