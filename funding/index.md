@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "funding"
+title: "Funding"
 description: ""
 group: subnavigation
 navorder: 8
