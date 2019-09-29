@@ -1,7 +1,7 @@
 ---
 layout: member
 title: "Dr. Bruno Correia"
-position: Principal investigator
+position: Tenure Track Assistant Professor
 nickname: Bruno
 handle: bru-cor
 email: bruno.correia@epfl.ch
